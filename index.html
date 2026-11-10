@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ERPNext Inventory Planning Dashboard</title>
+<meta name="description" content="A demonstration of an ERPNext inventory planning dashboard and six drilldown reports.">
+<style>
+:root{font-family:Inter,Segoe UI,Arial,sans-serif;color:#17243a;background:#f4f7fb}*{box-sizing:border-box}body{margin:0}.hero{background:#17243a;color:white;padding:48px max(24px,calc((100vw - 1100px)/2)) 44px}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:12px;color:#a9c8ff;font-weight:700}.hero h1{font-size:clamp(30px,5vw,48px);margin:14px 0 12px}.hero p{max-width:720px;line-height:1.6;color:#d1d9e6;margin:0}.badge{display:inline-block;background:#fff0ca;color:#74501a;border-radius:999px;padding:8px 13px;font-size:12px;font-weight:700;margin-top:22px}.wrap{max-width:1100px;margin:0 auto;padding:32px 24px}.preview{width:100%;height:auto;border-radius:14px;box-shadow:0 14px 48px #203a5d22;background:white}.notice{font-size:13px;color:#65758b;margin:14px 2px 32px}.reports{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px}.reports article{background:#fff;padding:18px;border:1px solid #e2e9f2;border-radius:10px}.reports b{display:block;font-size:14px;margin-bottom:7px}.reports span{font-size:12px;color:#718097;line-height:1.5}.bottom{margin-top:32px;padding:20px 0;border-top:1px solid #dce4ee;color:#68788e;font-size:13px;line-height:1.6}.bottom a{color:#3474d8;text-decoration:none}
+</style></head>
+<body><header class="hero"><div class="eyebrow">ERPNext · Inventory planning</div><h1>Plan stock with demand in view.</h1><p>A dashboard source project with six drilldowns for finished goods, child-item demand, backorders, Pareto analysis, and critical SKUs.</p><span class="badge">DEMO ONLY · SYNTHETIC FIGURES</span></header>
+<main class="wrap"><img class="preview" src="assets/dashboard-demo.svg" alt="Synthetic mockup of the inventory planning dashboard"><p class="notice">All quantities and values shown above are invented examples. They do not come from the ERPNext production system.</p>
+<section class="reports" aria-label="Six report drilldowns">
+<article><b>1 · FG Item Sales Drilldown</b><span>Sales Order demand grouped by finished-good SKU with monthly quantities.</span></article>
+<article><b>2 · Child Item Sales Drilldown</b><span>Material demand expanded from product bundles, variants, and directly sold items.</span></article>
+<article><b>3 · Backorder Child Items</b><span>Unreserved component demand remaining on open Sales Orders.</span></article>
+<article><b>4 · Child Item Pareto</b><span>Ranks child SKUs by contribution to total demand.</span></article>
+<article><b>5 · FG Item Value Pareto</b><span>Ranks finished goods by Sales Order value.</span></article>
+<article><b>6 · Critical Backorder SKUs</b><span>Near-term component requirements tied to open deliveries.</span></article></section>
+<footer class="bottom">Public mockup only. All values are synthetic; no ERP data, credentials, or source code are included. It does not connect to an ERPNext server.</footer></main></body></html>
